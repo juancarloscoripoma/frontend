@@ -47,6 +47,10 @@ export class ClientsComponent implements OnInit, OnDestroy {
     this.clients = [];
   }
 
+  showCreateModal(event: any) {
+    console.log(new Date().getTime());
+  }
+
 }
 
 export class Clients {

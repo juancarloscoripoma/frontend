@@ -1,9 +1,34 @@
 <div class="container">
 
   <div class="row">
+    <div class="col-11">
+      <div class="card mt-3"><!--style="width: 18rem;"-->
+        <div class="card-body">
+          <h5 class="card-title text-muted">Money on account</h5>
+          <span class="price-symbol text-muted">Bs.</span>
+          <span class="h2 card-subtitle mb-2 pl-4 text-muted">15</span>
+          <!--<h2 class="card-subtitle mb-2 text-muted">15</h2>-->
+          <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+          <a href="#" class="card-link float-right">Enter</a><!--last-->
+          <a href="#" class="card-link float-right pr-4">See detail</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="card mt-3">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row">
     <div class="col-12">
       <h1> clients works! </h1>
-      <button type="button" class="btn btn-primary">Create Client</button>
+      <button type="button" class="btn btn-primary" (click)="showCreateModal($event);">Create Client</button>
     </div>
   </div><br/>
 
